@@ -8,6 +8,7 @@ img{
     border-radius: 15%;
 }
 
+
 .gallery-designer-info{
     display:flex;
     flex-direction:column;
@@ -59,3 +60,9 @@ text-align: center;
    padding-right:1em;
 }
 
+
+.gallery{
+    display:grid;
+    grid-gap: 20px;
+    object-fit: cover;
+}
