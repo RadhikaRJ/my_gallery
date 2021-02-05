@@ -5,7 +5,8 @@
     margin:0 auto;
 }
 img{
-    border-radius: 15%;
+    border-radius: 5%;
+    width:100%;
 }
 
 
@@ -62,7 +63,5 @@ text-align: center;
 
 
 .gallery{
-    display:grid;
-    grid-gap: 20px;
-    object-fit: cover;
+  display:flex;
 }
