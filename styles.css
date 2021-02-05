@@ -29,7 +29,21 @@ img{
 .gallery-designer-info > p > img{
     align-items: center;   
 }
+.basic-info{
+    align-items: center;
+    border: 2px solid green;
+   
+}
+.name{
+margin-top:0;
+margin-bottom:0;
+font-size: large;
+font-weight: 700;
+}
 
+.location{
+    margin-bottom: 0;;
+}
 .profilephoto{
     object-fit: contain;
     width:20%;
@@ -72,8 +86,11 @@ text-align: center;
 .gallery{
   display:flex;
   flex-direction:column;
-  /* border: 2px solid green; */
+  border: 2px solid green;
   justify-content: flex-start;
+  margin-top:0;
+  margin-bottom:0;
+  padding:0;
 }
 
 .row{
