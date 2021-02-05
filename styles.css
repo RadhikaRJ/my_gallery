@@ -8,7 +8,10 @@ img{
 
     width:100%;
     object-fit: contain;   
-   
+    padding:0.25em;
+    margin-left:1em;
+    border-radius:1.5em;
+    
 }
 
 
@@ -24,10 +27,12 @@ img{
    
 }
 .gallery-designer-info > p > img{
-    align-items: center;
-    width:45%
-   
-    
+    align-items: center;   
+}
+
+.profilephoto{
+    object-fit: contain;
+    width:20%;
 }
 .other-details{
     display: flex;
@@ -67,58 +72,84 @@ text-align: center;
 .gallery{
   display:flex;
   flex-direction:column;
-  border: 2px solid green;
-  justify-content: space-evenly;
+  /* border: 2px solid green; */
+  justify-content: flex-start;
 }
 
 .row{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display:flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     margin:0;
     padding:0;
+    
 }
 
 .col{
     display:flex;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: flex-start;
     margin:0;
     padding:0;
+    
 }
 .sub-row1{
     display:flex;
-    border: 2px solid blue;
-    margin:0;
-    padding:0;
+    /* border: 2px solid blue; */
+    margin-bottom: 0;
 }
 .sub-row2{
     display: flex;
-    justify-content: space-evenly;
-    margin:0;
-    padding:0;
+    justify-content: flex-start;
+   
 }
+
+.row,
+.col,
+.sub-row1,
+.sub-row2{
+    padding:0;
+    margin:0;
+    border:2px solid black;
+}
+
 .img1,
 .img2,
 .img3,
 .img4,
 .img5,
 .img6{
-    margin:0;
+  margin:0;
   padding:0.5em;
-  border:2px solid black;
+  /* border:2px solid black; */
   
 }
 .img1{
-    width:85%;
-    margin-left:1rem;
+    width:91%;
+    
 }
 .img2{
-    width:89%;
+    width:95%;
 }
 
 .img1,.img2{
-    padding-bottom:0.5em;;
+   
     margin-bottom:0;
 }
+.img3{
+    width:95%;
+}
+
+.img4{
+    width:94%;
+}
+
+.img5{
+    width:80%;
+}
+.img6{
+    width:80%;
+}
+
